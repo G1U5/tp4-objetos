@@ -46,9 +46,7 @@ class Rectangulo {
     }
   }
   let rectangulo1 = new Rectangulo(0,0);
-  document.write('<h5>Propiedades iniciales del objeto "rectangulo1" creado a partir de la clase "Rectangulo":</h5>');
   rectangulo1.mostrarPropiedades()
-  document.write('<h5>Uso de los métodos del objeto "rectangulo1": </h5>');
   rectangulo1.modificarAlto();
   rectangulo1.modificarAncho();
   rectangulo1.mostrarPropiedades()
